@@ -16,9 +16,7 @@ class ProductsItem extends StatelessWidget {
                 child: Container(
               child: Column(
                 children: <Widget>[
-                  Text("${item.id}"),
-                  Text("${item.title}"),
-                  Text("${item.quantity}")
+               
                 ],
               ),
             ))
