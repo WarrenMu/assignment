@@ -1,2 +1,2 @@
 # assignment
-![project view](..\lib\images\my app assignment.png)
+![project view](C:\assignment\lib\images\my app assignment.png)
