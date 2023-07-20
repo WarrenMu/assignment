@@ -1,6 +1,5 @@
+import 'package:assignment/views/homepage.dart';
 import 'package:flutter/material.dart';
-
-import 'package:assignment/api.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,28 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Title(
-            child: Text("H I"),
-            color: Colors.cyan,
-          ),
-          backgroundColor: Colors.deepPurple,
-        ),
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              OutlinedButton(onPressed: () async{
-                await callApi();
-              },
-              child: Text("Testing API"),)
-            ],
-        ),
-        ),
-    )
+        title: 'Flutter Api Demo',
+        theme: ThemeData(primarySwatch: Colors.cyan),
+        debugShowCheckedModeBanner: false,
+        home: const HomePage(),
     );
-  }
-}
-
+}}
