@@ -1,2 +1,2 @@
 # assignment
-![project view](.\lib\images\myappassignment.png)
+![project view](./lib/images/myappassignment.png)
